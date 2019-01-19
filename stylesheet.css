@@ -85,16 +85,21 @@ right: 0;
 	background-color: #DEDEDE;
 }
 
-.imagecontainer1 {
+.firstrow {
 	display: flex;
 	justify-content: space-between;
-	/* width: 100%; */
 }
 
-.imagecontainer2 {
-	display: flex;
+.imagecontainer1 {
 	justify-content: space-between;
+	
 }
+
+.bannerright {
+	flex: 1;
+}
+
+
 
 
 
