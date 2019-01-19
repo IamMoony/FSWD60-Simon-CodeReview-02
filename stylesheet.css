@@ -3,6 +3,9 @@
 	width: 1300px;
 	margin: 0px auto;
 } */
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
 
 .headersection {
 	background-color: #931F25;
@@ -23,6 +26,7 @@
 .navtop {
 	margin: 0px;
 	background-color: #131313;
+	text-transform: uppercase;
 }
 
 .navtop ul {
@@ -39,6 +43,10 @@
 	color: white;
 	display: block;
 	
+}
+
+.navbottom {
+	text-transform: uppercase;
 }
 
 .navbottom ul {
@@ -64,9 +72,20 @@
 
 .newssection, .popularsection {
 	background-color: #DEDEDE;
+	font-weight: bold;
+	color: #888888;
 }
 
+.newssection {
+	padding: 5px;
+	margin-bottom: 15px;
+	/* margin-top: 20px; */
+}
 
+.popularsection {
+	padding: 5px;
+	margin-bottom: 15px;
+}
 /* .imagecontainer1 {
 	display: flex;
 } */
@@ -86,14 +105,30 @@
 	margin: 0px 15px 0px 0px;
 }
 
+.imagecontainer2 {
+	flex: 9;
+	margin: 0px 15px 0px 0px;
+}
+
 
 .bannersection{
 	flex: 1;
 }
 
+.bannersection2 {
+	flex: 1;
+}
+
+
 .bannersection img {
 height: 100%;
 width: 100%;
+
+}
+
+.bannersection2 img {
+	height: 100%;
+	width: auto;
 }
 
 .developersection {
@@ -105,6 +140,7 @@ width: 100%;
 	padding-top: 25px;
 	/* width: 95%; */
 }
+
 
 .imagewrapper2 {
 	display: flex;
@@ -125,6 +161,23 @@ width: 100%;
 	margin: -5% 0 0 0;
 }
 
+.firstrow2 div figcaption {
+	background-color: #131313;
+	color: white;
+	padding: 50px;
+	position: relative;
+	margin: -15% 0 0 0;
+}
+
+.secondrow {
+	margin-top: 50px;
+}
+
+.mainsection {
+	/* width: 90%; */
+	margin: 0 auto;
+}
+
  
 
 
@@ -138,6 +191,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	margin-top: 50px;
+	height: 300px;
 }
 
 .footerimage {
