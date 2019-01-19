@@ -27,6 +27,7 @@ body {
 	margin: 0px;
 	background-color: #131313;
 	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .navtop ul {
@@ -94,6 +95,14 @@ body {
 	display: flex;
 	justify-content: space-between; /* adds space evenely between the pictures */
 	/* width: 100%; */
+}
+
+.firstrow1 div figcaption {
+	font-weight: bold;
+}
+
+.firstrow2 div figcaption {
+	font-weight: bold;
 }
 
 .imagewrapper {
@@ -178,6 +187,7 @@ width: 100%;
 	margin: 0 auto;
 }
 
+
  
 
 
@@ -192,6 +202,7 @@ footer {
 	flex-direction: column;
 	margin-top: 50px;
 	height: 300px;
+	font-weight: bold;
 }
 
 .footerimage {
